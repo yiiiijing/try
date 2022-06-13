@@ -1,0 +1,301 @@
+@charset "utf-8";
+.container1 .left {
+	margin-right: 10px;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	flex: 1;
+	font-weight: 500;
+	text-align: left;
+}
+header h1  {
+	font-size: 86px;
+	color: #113437;
+	margin-top: -7px;
+	margin-right: -7px;
+	margin-bottom: -7px;
+	margin-left: -7px;
+}
+header {
+	width: 100%;
+	height: 90vh;
+	background-color: #D0F6FA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 40px;
+	font-weight: 700;
+	background-image: url(../final%20presentation/images/learning%20English.jpg);
+	background-size: contain;
+	background-position: center center;
+	margin-top: -79px;
+}
+
+
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #609FAD;
+	height: 80px;
+	z-index: 1000;
+	opacity: 0.7;
+	width: 100%;
+	-webkit-box-shadow: 0px 4px 30px #0F3A42;
+	box-shadow: 0px 4px 30px #0F3A42;
+}
+.container1 .right {
+	padding-left: 10px;
+	background-image: url(../final%20presentation/images/bilingual%20nation%20blueprint.jpg);
+	background-position: center center;
+	flex: 1;
+	background-size: contain;
+}
+article h2  {
+	font-size: 50px;
+	font-weight: 900;
+	text-align: center;
+}
+nav h3  {
+	font-size: 40px;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 18px;
+	margin-right: 20px;
+}
+.container1 {
+	display: flex;
+	width: 80%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav a:hover {
+	color: #1D3764;
+}
+header a:link {
+	padding: 25px;
+	background-color: #0F2D49;
+	font-size: 22px;
+	color: #FEFEFE;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 30px;
+	border-radius: 35px;
+	margin-left: 30px;
+}
+header a:hover {
+	background-color: #FCFCFC;
+	color: #1D4A7C;
+}
+#a03 p {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+}
+.container2 {
+	width: 80%;
+	height: 400px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 22px;
+	font-weight: 300;
+}
+.container5 {
+	width: 80%;
+	height: 400px;
+	display: flex;
+	margin-left: auto;
+	font-weight: 300;
+	font-size: 22px;
+	margin-right: auto;
+}
+
+.container3 {
+	display: flex;
+	width: 80%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.container2 .left {
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding-top: 148px;
+}
+.container5 .left {
+	margin-right: 10px;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding-top: 69px;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.container3 .left {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	margin-right: 10px;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding-top: 167px;
+}
+
+
+.container2 .right {
+	background-image: url(../final%20presentation/images/EC69-P26.png);
+	flex: 1;
+	background-size: contain;
+	background-position: center center;
+}
+#a04 p {
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+}
+.container3 .right {
+	flex: 1;
+	background-position: center center;
+	background-size: cover;
+	background-image: url(../final%20presentation/images/opposition.jpg);
+}
+#a02 p {
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+}
+.container4 {
+	width: 90%;
+	height: 350px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.container4 .colT {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #A9B8CA;
+	color: #FBFBFB;
+	-webkit-box-shadow: 0px 0px 52px;
+	box-shadow: 0px 0px 52px;
+	opacity: 0;
+	-webkit-transition: all 500ms ease-in-out 0s;
+	-o-transition: all 500ms ease-in-out 0s;
+	transition: all 500ms ease-in-out 0s;
+}
+.container4 .col01 {
+	display: flex;
+	margin: 5px;
+	border-radius: 10px;
+	flex: 1;
+	align-items: flex-end;
+	background-image: url(../final%20presentation/images/money.jpg);
+	background-size: contain;
+	background-position: center center;
+}
+.container4 .col02 {
+	border-radius: 10px;
+	display: flex;
+	flex: 1;
+	align-items: flex-end;
+	background-image: url(../final%20presentation/images/national%20defense.jpg);
+	background-position: center center;
+	margin: 5px;
+	background-size: contain;
+}
+.container4 .col03 {
+	border-radius: 10px;
+	display: flex;
+	flex: 1;
+	margin: 5px;
+	align-items: flex-end;
+	background-image: url(../final%20presentation/images/culture.png);
+	background-position: center center;
+	background-size: contain;
+}
+.col01:hover .colT {
+	-webkit-opacity: 1;
+}
+.col02:hover .colT {
+	-webkit-opacity: 1;
+}
+.col03:hover .colT {
+	-webkit-opacity: 1;
+}
+
+
+.container4 .col01:hover {
+	transform: translateY(-5px);
+}
+.motivation {
+	background-image: url(../final%20presentation/images/motivation.jpg);
+	background-position: center center;
+	background-size: contain;
+}
+
+.container4 .col02:hover {
+	transform: translateY(-5px);
+}
+.container4 .col03:hover {
+	transform: translateY(-5px);
+}
+.oppose {
+	background-position: left center;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-image: url(../final%20presentation/images/background.png);
+}
+.container1 .right:hover {
+	-webkit-box-shadow: 1px 1px 5px 2px;
+	box-shadow: 1px 1px 5px 2px;
+	-webkit-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+.container5 .right {
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../final%20presentation/images/five%20strategies.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.container5 .right:hover {
+	-webkit-box-shadow: 1px 1px 5px 2px;
+	box-shadow: 1px 1px 5px 2px;
+	-webkit-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+.strategies {
+	background-image: url(../final%20presentation/images/background2.jpg);
+	background-position: center center;
+	background-size: contain;
+
+}
